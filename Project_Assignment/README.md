@@ -56,13 +56,13 @@ test with stratification on the label to preserve class balance across splits.
 
 ```
 .
-├── Project_Assignment.ipynb                  # Main notebook: EDA, Part A, Part B, visualizations
-├── Project_Assignment.pdf                     # Original assignment brief
-├── Spam_Classification_Technical_Report.docx  # Full written report (methodology, results, discussion)
-├── metric_comparison.png                      # Accuracy/Precision/Recall/F1 bar chart
-├── confusion_matrices.png                     # Confusion matrices for all 3 models
-├── training_time_comparison.png               # Training time bar chart
-├── best_distilbert.pt                         # Best checkpoint (by validation F1), saved during training
+├── Project_Assignment.ipynb                    # Main notebook: EDA, Part A, Part B, visualizations
+├── Spam_Classification_Technical_Report.docx   # Full written report (methodology, results, discussion)
+├── visualizations/
+│   ├── metric_comparison.png                   # Accuracy/Precision/Recall/F1 bar chart
+│   ├── confusion_matrices.png                  # Confusion matrices for all 3 models
+│   ├── training_curves.png                     # DistilBERT loss/accuracy/F1 across epochs
+│   └── training_time_comparison.png            # Training time bar chart
 └── README.md
 ```
 
